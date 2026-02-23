@@ -1,0 +1,1 @@
+worker: python Bot_Shopee.py

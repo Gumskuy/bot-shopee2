@@ -1,0 +1,84 @@
+{
+  "welcome_text": "🔥 Katalog Produk 🔥\nSilakan pilih produk:",
+  "banner": "images/banner/banner.png",
+  "products": [
+    {
+      "id": "p1",
+      "name": "SKIN1004 Madagascar Centella Light Cleansing Oil 200ml",
+      "photo": "images/3.png",
+      "description": "SKIN1004 Madagascar Centella Light Cleansing Oil 200ml (New Segel)",
+      "price": "Rp75.000",
+      "link": "https://id.shp.ee/fbmiLnq"
+    },
+    {
+      "id": "p2",
+      "name": "SKIN1004 Madagascar Centella Tea-Trica B5 Cream 75ml",
+      "photo": "images/1.png",
+      "description": "SKIN1004 Madagascar Centella Tea-Trica B5 Cream 75ml (New Segel).",
+      "price": "Rp50.000",
+      "link": "https://id.shp.ee/j2PSSSK"
+    },
+    {
+      "id": "p3",
+      "name": "SKIN1004 Madagascar Centella Ampoule 55ml",
+      "photo": "images/2.png",
+      "description": "SKIN1004 Madagascar Centella Ampoule 55ml (New Segel).",
+      "price": "Rp45.000-70.000",
+      "link": "https://id.shp.ee/an95AwR"
+    }
+    ,
+    {
+      "id": "p4",
+      "name": "SKIN1004 Madagascar Centella Tone Brightening Capsule Cream 75ml",
+      "photo": "images/4.jpg",
+      "description": "SKIN1004 Madagascar Centella Tone Brightening Capsule Cream 75ml (New Segel).",
+      "price": "Rp55.000",
+      "link": "https://id.shp.ee/wZ5yjce"
+    }
+    ,
+    {
+      "id": "p5",
+      "name": "SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50 PA++++",
+      "photo": "images/5.jpg",
+      "description": "SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50 PA++++ (New Segel).",
+      "price": "Rp60.000",
+      "link": "https://id.shp.ee/pEf4nU4"
+    }
+    ,
+    {
+      "id": "p6",
+      "name": "SKIN1004 Madagascar Centella Cream 75ml",
+      "photo": "images/6.jpg",
+      "description": "SKIN1004 Madagascar Centella Cream 75ml (New Segel).",
+      "price": "55.000",
+      "link": "https://id.shp.ee/FMbDwKK"
+    }
+    ,
+    {
+      "id": "p7",
+      "name": "Judydoll Liquid Blush - Blush On Cair Tahan Lama 12 Jam, Waterproof, Transferproof, Mudah Di Blend Dengan Hasil Yang Natural",
+      "photo": "images/7.jpg",
+      "description": "Judydoll Liquid Blush - Blush On Cair Tahan Lama 12 Jam, Waterproof, Transferproof, Mudah Di Blend Dengan Hasil Yang Natural(New Segel).",
+      "price": "Rp40.000",
+      "link": "https://id.shp.ee/8FZae4N"
+    }
+    ,
+    {
+      "id": "p8",
+      "name": "Sheet mask skin & acne patch",
+      "photo": "images/8.jpg",
+      "description": "Sheet mask skin & acne patch (New Segel).",
+      "price": "Rp15.000",
+      "link": "https://id.shp.ee/CNFTPtF"
+    }
+    ,
+    {
+      "id": "p9",
+      "name": "Sheet mask skin & acne patch",
+      "photo": "images/9.jpg",
+      "description": "SKIN1004 Madagascar Centella Ampoule 55ml (New Segel).",
+      "price": "Rp15.000",
+      "link": "https://id.shp.ee/CNFTPtF"
+    }
+  ]
+}
