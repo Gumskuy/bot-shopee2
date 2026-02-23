@@ -1,14 +1,19 @@
 import json
 import os
 from datetime import datetime
+
+# Import psycopg2 lengkap
+import psycopg2
+from psycopg2.extras import RealDictCursor
+
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, Update
 from telegram.error import BadRequest
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
-from psycopg2.extras import RealDictCursor
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN")  # simpan token bot di Railway secret
+# ===== ENVIRONMENT =====
+TOKEN = os.environ.get("TELEGRAM_TOKEN")  # Railway secret
 ADMIN_USERNAME = "szavvvv"
-DATABASE_URL = os.environ.get("DATABASE_URL")
+DATABASE_URL = os.environ.get("DATABASE_URL")  # Railway Postgres secret
 
 # ===== LOAD DATA =====
 with open("data.json", "r", encoding="utf-8") as f:
@@ -118,5 +123,4 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-
     main()
