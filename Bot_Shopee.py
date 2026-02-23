@@ -4,7 +4,6 @@ from datetime import datetime
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, Update
 from telegram.error import BadRequest
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
-import psycopg2
 from psycopg2.extras import RealDictCursor
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")  # simpan token bot di Railway secret
@@ -119,4 +118,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
